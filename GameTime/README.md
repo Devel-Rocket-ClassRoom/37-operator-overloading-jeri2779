@@ -4,7 +4,10 @@
 
 **요구사항:**
 
-1. `GameTime` 구조체에 `Hours`(int), `Minutes`(int), `Seconds`(int) 필드를 정의
+1. `GameTime` 구조체에 
+1. `Hours`(int), 
+1. `Minutes`(int), 
+1. `Seconds`(int) 필드를 정의
 2. 생성자에서 초가 60 이상이면 분으로, 분이 60 이상이면 시간으로 자동 올림 처리 (정규화)
 3. 다음 연산자를 오버로딩:
    - `+` : 두 시간을 더함
